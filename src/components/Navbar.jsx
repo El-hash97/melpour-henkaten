@@ -4,11 +4,7 @@ export default function Navbar({ auth, onNavigate, onLogout }) {
       <div className="navbar-inner">
         <div className="navbar-brand">
           <div className="navbar-logo">
-            <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
-              <rect width="28" height="28" rx="6" fill="#C62828"/>
-              <path d="M6 20L10 10L14 16L18 12L22 20H6Z" fill="white" opacity="0.9"/>
-              <circle cx="10" cy="9" r="2" fill="white" opacity="0.7"/>
-            </svg>
+            <img src="/logo.png" alt="Logo" style={{ height: 36, width: 'auto', objectFit: 'contain' }} />
           </div>
           <div className="navbar-title">
             <span className="navbar-title-main">Henkaten &amp; Problem</span>

@@ -156,7 +156,6 @@ export default function FormPage({ onSubmit, onToast }) {
           {/* Section 01 */}
           <div className="form-section">
             <div className="form-section-header">
-              <div className="form-section-number">01</div>
               <div><h2 className="form-section-title">Identitas Pelapor</h2><p className="form-section-desc">Data diri operator yang melakukan pelaporan</p></div>
             </div>
             <div className="form-grid form-grid-2">
@@ -190,7 +189,6 @@ export default function FormPage({ onSubmit, onToast }) {
           {/* Section 02 */}
           <div className="form-section">
             <div className="form-section-header">
-              <div className="form-section-number">02</div>
               <div><h2 className="form-section-title">Waktu Kejadian</h2><p className="form-section-desc">Tanggal dan jam saat masalah atau henkaten ditemukan</p></div>
             </div>
             <div className="form-grid form-grid-2">
@@ -210,7 +208,6 @@ export default function FormPage({ onSubmit, onToast }) {
           {/* Section 03 */}
           <div className="form-section">
             <div className="form-section-header">
-              <div className="form-section-number">03</div>
               <div><h2 className="form-section-title">Detail Temuan / Problem</h2><p className="form-section-desc">Deskripsi lengkap mengenai henkaten atau masalah yang ditemukan</p></div>
             </div>
             <div className="form-grid form-grid-1">
@@ -241,7 +238,6 @@ export default function FormPage({ onSubmit, onToast }) {
           {/* Section 04 */}
           <div className="form-section">
             <div className="form-section-header">
-              <div className="form-section-number">04</div>
               <div><h2 className="form-section-title">Dokumentasi Foto</h2><p className="form-section-desc">Unggah foto kondisi sebelum dan sesudah perbaikan</p></div>
             </div>
             <div className="form-grid form-grid-2">
@@ -259,7 +255,6 @@ export default function FormPage({ onSubmit, onToast }) {
           {/* Section 05 */}
           <div className="form-section">
             <div className="form-section-header">
-              <div className="form-section-number">05</div>
               <div><h2 className="form-section-title">Tindakan Perbaikan</h2><p className="form-section-desc">Countermeasure yang dilakukan serta penanggung jawab perbaikan</p></div>
             </div>
             <div className="form-grid form-grid-1">
