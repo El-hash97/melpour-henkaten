@@ -1,0 +1,55 @@
+@keyframes spin {
+  0%   { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Smaller hero section */
+.page-header {
+  padding: 20px 0 16px !important;
+  margin-bottom: 20px !important;
+}
+.page-header-badge {
+  font-size: 10px !important;
+  padding: 3px 10px !important;
+  margin-bottom: 6px !important;
+}
+.page-header-title {
+  font-size: 18px !important;
+  margin-bottom: 4px !important;
+}
+.page-header-desc {
+  font-size: 13px !important;
+}
+
+/* Always show icon buttons, hide hamburger */
+@media (max-width: 768px) {
+  .navbar-actions { display: flex !important; }
+  .navbar-hamburger { display: none !important; }
+}
+
+/* Icon-only navbar buttons */
+.btn-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  border-radius: 8px;
+  border: 1.5px solid transparent;
+  background: transparent;
+  color: var(--gray-700);
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+  cursor: pointer;
+}
+.btn-icon:hover {
+  background: var(--gray-100);
+  color: var(--red-600);
+}
+.btn-icon.btn-icon-red {
+  border-color: var(--red-600);
+  color: var(--red-600);
+}
+.btn-icon.btn-icon-red:hover {
+  background: var(--red-100);
+}
